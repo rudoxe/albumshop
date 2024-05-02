@@ -21,7 +21,7 @@
     <img src="https://i1.sndcdn.com/artworks-Q7DpiaEhiXkaybpy-yj6oJg-t500x500.jpg" alt="Logo" class="h-40 w-auto" />
 </a>
 
-
+ 
             </div>
 
             <div class="w-full sm:max-w-md mt-6 px-6 py-4 bg-white shadow-md overflow-hidden sm:rounded-lg">
