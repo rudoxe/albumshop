@@ -4,5 +4,5 @@
     </x-slot:heading>
 
 
-<h1>Hello Nigga About page</h1>
+<h1>Hello From About page</h1>
 </x-layout>    
