@@ -1,7 +1,7 @@
-<x-guest-layout>
+<x-guest-layout data-bs-theme="dark">
     <!-- Session Status -->
     <x-auth-session-status class="mb-4" :status="session('status')" />
-
+    <img src="https://i1.sndcdn.com/artworks-Q7DpiaEhiXkaybpy-yj6oJg-t500x500.jpg" alt="Your Image" />
     <form method="POST" action="{{ route('login') }}">
         @csrf
 
