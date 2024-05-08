@@ -19,6 +19,7 @@
                         {{ __('Albums') }}
                     </x-nav-link>
 
+
                 </div>
             </div>
 

@@ -4,17 +4,26 @@ use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AlbumController;
 
-Route::get('/playboi-carti', [AlbumController::class, 'playboiCarti'])->name('playboi-carti');
+Route::get('/albums', 'AlbumController@index')->name('albums');
 
-Route::get('/albums', [AlbumController::class, 'index'])->name('albums');
+
 
 Route::get('/', function () {
     return view('welcome');
 });
 
+
+Route::get('/albums', function () {
+    return view('albums');
+});    
+
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
+
+Route::get('/albums', function () {
+    return view('albums');
+})->middleware(['auth', 'verified'])->name('albums');
 
 
 
